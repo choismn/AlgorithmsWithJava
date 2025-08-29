@@ -10,7 +10,6 @@ public class Solution {
         for(int i=0 ; i<li.length ; i++){
             intli[i] = Integer.parseInt(li[i]);
         }        
-        int sum = intli[0] + intli[1];
-        System.out.print(intli[0] + " + " + intli[1] + " = " + sum);
+        System.out.printf("%d + %d = %d", intli[0], intli[1], intli[0] + intli[1]);
     }
 }
